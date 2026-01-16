@@ -22,16 +22,16 @@ pitch/
 
 ```bash
 # 예시: 새로운 기능 Pitch 작성
-cp pitch/templates/pitch-template.md pitch/feature/YYYY-MM-DD_프로젝트명_Pitch.md
+cp pitch/templates/pitch-template.md pitch/feature/프로젝트명_MM-DD-YYYY_Pitch.md
 ```
 
 ### 2. 네이밍 컨벤션
 Pitch 파일명은 다음 형식을 따릅니다:
-- **형식**: `YYYY-MM-DD_프로젝트명_Pitch.md`
+- **형식**: `프로젝트명_MM-DD-YYYY_Pitch.md`
 - **예시**:
-  - `2026-01-16_enterprise-wallet_Pitch.md`
-  - `2026-01-20_ai-chatbot_Pitch.md`
-  - `2026-02-01_search-optimization_Pitch.md`
+  - `enterprise-wallet_01-16-2026_Pitch.md`
+  - `ai-chatbot_01-20-2026_Pitch.md`
+  - `search-optimization_02-01-2026_Pitch.md`
 
 ### 3. 카테고리 분류
 - **feature/**: 새로운 기능 추가
@@ -106,7 +106,7 @@ Pitch 작성 시 `pitch-checklist.md`를 참고하여 필수 항목을 확인하
 
 ## 📚 참고 문서
 
-- [샘플 Pitch](feature/2026-01-16_enterprise-wallet_Pitch.md) - 참고용 예제
+- [샘플 Pitch](feature/enterprise-wallet_01-16-2026_Pitch.md) - 참고용 예제
 - [Pitch 체크리스트](pitch-checklist.md) - 작성 시 확인 사항
 - [Pitch 템플릿](templates/pitch-template.md) - 기본 템플릿
 
